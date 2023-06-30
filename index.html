@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Add styles for the restaurant menu */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+    }
+    .logo {
+      background-color: black;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 130px;
+      width: 130px;
+    }
+    .menu {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .menu-category1 {
+      padding: 15px;
+      background-color: rgb(26, 30, 27);
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .menu-category2 {
+      padding: 15px;
+      background-color: rgb(26, 30, 27);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .menu-subcategory1 {
+      padding: 10px;
+      background-color: rgb(64, 64, 64);
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .menu-subcategory2 {
+      padding: 10px;
+      background-color: rgb(64, 64, 64);
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .nadpis {
+      text-align: center;
+    }
+    .item-details {
+      padding: 15px;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .item-image {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+    .item-details .item-description {
+      color: #666666;
+    }
+    .item-details .item-price {
+      font-weight: bold;
+      color: #f15b2a;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo1"><img class="logo" src="logo.png"></div>
+  <div class="menu">
+    <div class="menu-category2">
+      Жълт Тютюн (Blonde Leaf)
+    </div>
+    <div class="menu-subcategory2">О's Tobacco</div>
+    <div class="item-details">
+      <div class="menu-item">
+        <img src="disco.jpeg" alt="Appetizer 1" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Disco</div>
+          <div class="item-description">Праскова с мента</div>
+          </div>
+        </div>
+        <div class="item-price">27.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="franklin.png" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Franklin</div>
+          <div class="item-description">Шамфъстък с ванилия</div>
+          </div>
+        </div>
+        <div class="item-price">27.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="queen.png" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">African Queen</div>
+          <div class="item-description">Микс от 16 червени плода</div>
+          </div>
+        </div>
+        <div class="item-price">27.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="biq.png" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Bonnie & Clyde</div>
+          <div class="item-description">Зелена ябълка с мента</div>
+          </div>
+        </div>
+        <div class="item-price">27.00лв</div>
+      </div>
+    </div>
+      <div class="menu-subcategory2">Holster</div>
+    <div class="item-details">
+      <div class="menu-item">
+        <img src="wp.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Watermill Punch</div>
+          <div class="item-description">Диня с мента</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="mj.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Miss Joosy</div>
+          <div class="item-description">Малина и ягода</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="wild.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Wild Punch</div>
+          <div class="item-description">Горски плодове</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="grpe.png" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Grape Mint</div>
+          <div class="item-description">Грозде с мента</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="ib.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Ice Bomb</div>
+          <div class="item-description">Айс бонбон</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="ik.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Ice Kaktuz</div>
+          <div class="item-description">Айс кактус</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="if.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Ice Finger</div>
+          <div class="item-description">Лимон, лайм и малина</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="uc.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Unicorn</div>
+          <div class="item-description">Зърнена закуска</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="bn.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Bono</div>
+          <div class="item-description">Шоколад с лешник</div>
+          </div>
+        </div>
+        <div class="item-price">25.00лв</div>
+      </div>
+    <div class="menu-item">
+      <img src="bp.jpeg" alt="Appetizer 2" class="item-image">
+      <div>
+        <div class="nadpis">
+        <div class="item-name">Bloody Punch</div>
+        <div class="item-description">Грейпфрут и портокал</div>
+        </div>
+      </div>
+      <div class="item-price">25.00лв</div>
+    </div>
+  </div>
+    
+    <div class="menu-category1">
+      Черен Тютюн (Dark Leaf)
+    </div>
+    <div class="menu-subcategory1">Element</div>
+    <div class="item-details">
+      <div class="menu-item">
+        <img src="rspb.png" alt="Appetizer 1" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Raspberry</div>
+          <div class="item-description">Малина</div>
+          </div>
+        </div>
+        <div class="item-price">30.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="chry.png" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Cherry</div>
+          <div class="item-description">Череша</div>
+          </div>
+        </div>
+        <div class="item-price">30.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="pineapple.png" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Pineapple</div>
+          <div class="item-description">Ананас</div>
+          </div>
+        </div>
+        <div class="item-price">30.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="mngo.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Mango</div>
+          <div class="item-description">Манго</div>
+          </div>
+        </div>
+        <div class="item-price">30.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="grpml.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Grapefruit & Pomelo</div>
+          <div class="item-description">Грейпфрут и Помело</div>
+          </div>
+        </div>
+        <div class="item-price">30.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="wildbrs.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Wildberry mors</div>
+          <div class="item-description">Горски плодове</div>
+          </div>
+        </div>
+        <div class="item-price">30.00лв</div>
+      </div>
+    </div>
+      <div class="menu-subcategory1">Tangiers</div>
+    <div class="item-details">
+      <div class="menu-item">
+        <img src="cnmint.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Cane Mint</div>
+          <div class="item-description">Сладка мента</div>
+          </div>
+        </div>
+        <div class="item-price">32.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="pct.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Piach Ice Tee</div>
+          <div class="item-description">Студен чай праскова</div>
+          </div>
+        </div>
+        <div class="item-price">32.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="hrc.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Horchata</div>
+          <div class="item-description">Канела</div>
+          </div>
+        </div>
+        <div class="item-price">32.00лв</div>
+      </div>
+      <div class="menu-item">
+        <img src="wtmln.jpeg" alt="Appetizer 2" class="item-image">
+        <div>
+          <div class="nadpis">
+          <div class="item-name">Watermelon</div>
+          <div class="item-description">Диня</div>
+          </div>
+        </div>
+        <div class="item-price">32.00лв</div>
+      </div>
+      </div>
+     
+    
+</div>
+
+</body>
+</html>
